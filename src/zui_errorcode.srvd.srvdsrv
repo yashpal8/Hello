@@ -1,0 +1,5 @@
+define service ZUI_ERRORCODE {
+  expose ZC_ERRORCODE_S as ErrorCodeAll;
+  expose ZC_ERRORCODE as ErrorCode;
+  expose ZC_ERRORCODETEXT as ErrorCodeText;
+}

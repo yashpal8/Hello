@@ -1,0 +1,5 @@
+@MappingRole: true
+define role ZC_ErrorCode {
+  grant select on ZC_ErrorCode
+  where INHERITING CONDITIONS FROM ENTITY ZI_ErrorCode;
+}
